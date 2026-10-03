@@ -317,9 +317,7 @@ function Education() {
         </div>
 
         <div className="education-note">
-          <strong>Assignment requirement:</strong> Include all educational and
-          professional qualifications, including the dates, year and degree
-          obtained.
+          
         </div>
       </section>
     </div>
