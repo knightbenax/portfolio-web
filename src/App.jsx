@@ -145,7 +145,7 @@ function Home() {
             <span> with purpose.</span>
           </h1>
           <p className="hero-copy">
-            Hello, I’m Reuben Ashefor. I build software products that combine
+            Hello, I'm Reuben Ashefor. I build software products that combine
             thoughtful design, useful technology and a clear user experience.
           </p>
           <div className="button-row">
@@ -212,7 +212,7 @@ function About() {
 
       <section className="about-layout section">
         <div className="profile-photo">
-          <img src="/profile-placeholder.svg" alt="Profile placeholder for Reuben Ashefor" />
+          <img src="https://www.knightbenax.dev/assets/me.jpg" alt="Profile Picture for Reuben Ashefor" />
         </div>
 
         <div className="about-copy">
@@ -232,7 +232,7 @@ function About() {
             services I can provide as a developer.
           </p>
 
-          <a className="button primary inline-button" href="/resume.pdf" target="_blank" rel="noreferrer">
+          <a className="button primary inline-button" href="/Reuben Bezaleel Ashefor_Resume_Plain.pdf" target="_blank" rel="noreferrer">
             View Resume ↗
           </a>
         </div>
