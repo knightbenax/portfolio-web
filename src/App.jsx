@@ -92,8 +92,8 @@ function Header() {
     <header className="navbar">
       <div className="nav-inner">
         <NavLink to="/" className="brand" onClick={() => setMenuOpen(false)}>
-          <span className="logo-mark">BA</span>
-          <span className="brand-name">Reuben</span>
+          <span className="logo-mark">RA</span>
+          <span className="brand-name">Reuben Ashefor</span>
         </NavLink>
 
         <button
@@ -176,7 +176,7 @@ function Home() {
           <h2>Make technology feel useful, simple and human.</h2>
         </div>
         <p>
-          I enjoy solving problems through software — from a first product idea
+          I enjoy solving problems through software - from a first product idea
           to the interface people actually use. My goal is to create products
           that are practical, understandable and enjoyable to interact with.
         </p>
@@ -298,8 +298,7 @@ function Education() {
             <p className="timeline-date">CURRENT</p>
             <h2>Diploma / Degree Information</h2>
             <p>
-              Add your current or most recent program, institution, start/end
-              dates and credential here.
+              Software Eng. with Artifical Intelligence (Co-OP): 2026
             </p>
           </div>
         </div>
@@ -307,17 +306,15 @@ function Education() {
         <div className="timeline-item">
           <span className="timeline-dot" />
           <div>
-            <p className="timeline-date">YEAR – YEAR</p>
+            <p className="timeline-date">2012 - 2017</p>
             <h2>Previous Education</h2>
             <p>
-              Add previous degrees, diplomas, certificates or other professional
-              qualifications required for your portfolio.
+              Computer Science - University of Ibadan, Nigeria
+            </p>
+            <p>
+              High School - King's College, Lagos
             </p>
           </div>
-        </div>
-
-        <div className="education-note">
-          
         </div>
       </section>
     </div>
@@ -456,11 +453,16 @@ function Contact() {
 function Footer() {
   return (
     <footer className="footer">
-      <div>
-        <strong>BA</strong>
+
+<iframe data-testid="embed-iframe"  src="https://open.spotify.com/embed/playlist/1aL6dFocQkHcoiMUPY5YCd?utm_source=generator&si=3766740065ff4dfb" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+      <div className="inner-footer">
+        <div>
+        <strong>RA</strong>
         <span>© {new Date().getFullYear()} Reuben Ashefor</span>
       </div>
       <span>React Portfolio · COMP229</span>
+      </div>
     </footer>
   );
 }
