@@ -23,14 +23,14 @@ const projects = [
     icon: "P"
   },
   {
-    title: "Cognal",
-    type: "AI Finance Application",
+    title: "Litur",
+    type: "Color Library and picker app",
     description:
-      "An AI-native personal finance concept that turns bank statements into structured transactions, analytics and understandable financial insights.",
-    role: "Product architecture, UX planning and full-stack development.",
+      "A color picker app that allows you pick and save colors. Also comes with Color Intelligence backed by Apple Foundation Models that allow you ask Litur for color tips, suggestions and palettes",
+    role: "Product design, iOS development and product direction.",
     outcome:
-      "Designed around automated document processing and a clear financial dashboard experience.",
-    icon: "C"
+      "Built and published as a real iOS app",
+    icon: "L"
   }
 ];
 
@@ -380,7 +380,7 @@ function Contact() {
           <p className="eyebrow">CONTACT INFORMATION</p>
           <div className="contact-item">
             <span>Email</span>
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="mailto:rashefor@my.centennialcollege.ca">rashefor@my.centennialcollege.ca</a>
           </div>
           <div className="contact-item">
             <span>Phone</span>
