@@ -15,7 +15,7 @@ A six-page React portfolio website created for COMP229 Web Application Developme
 
 - React-based portfolio
 - Navigation between all six pages
-- Custom BA logo
+- Custom RA logo
 - Home welcome message and mission statement
 - About Me page with name, profile image and resume link
 - Three project entries with project visuals, role and outcome

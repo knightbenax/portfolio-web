@@ -102,7 +102,7 @@ function Header() {
           aria-expanded={menuOpen}
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          {menuOpen ? "×" : "☰"}
+          {menuOpen ? "x" : "☰"}
         </button>
 
         <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
